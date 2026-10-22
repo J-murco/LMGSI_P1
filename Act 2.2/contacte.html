@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta amb nosaltres per enviar preguntes o comentaris sobre la web de pel·lícules.">
+    <title>Contacte - Cercador de pel·lícules</title>
+    <link rel="icon" href="hogar.svg" type="image/svg+xml">
+</head>
+<body>
+    <header>
+        <a href="index.html">Torna a l'inici</a>
+
+        <nav aria-label="Navegació principal">
+            <ul>
+                <li><a href="index.html#buscador">Buscador</a></li>
+                <li>
+                    <a href="contacte.html" aria-current="page">Contacte</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacte</h1>
+
+        <p>
+            Si tens alguna pregunta o suggeriment,
+            pots escriure'ns amb aquest formulari.
+        </p>
+
+        <form action="#" method="post">
+            <p>
+                <label for="nom">Nom</label>
+                <input
+                    type="text"
+                    id="nom"
+                    name="nom"
+                    autocomplete="name"
+                    required
+                >
+            </p>
+
+            <p>
+                <label for="correu">Correu electrònic</label>
+                <input
+                    type="email"
+                    id="correu"
+                    name="correu"
+                    autocomplete="email"
+                    required
+                >
+            </p>
+
+            <p>
+                <label for="missatge">Missatge</label>
+                <textarea
+                    id="missatge"
+                    name="missatge"
+                    rows="6"
+                    required
+                ></textarea>
+            </p>
+
+            <button type="submit">Envia el missatge</button>
+        </form>
+
+        <p>
+            <small>
+                Nota: aquest formulari és una maqueta HTML;
+                encara no envia missatges a cap servidor.
+            </small>
+        </p>
+    </main>
+
+    <footer>
+        <p>© 2026 The Movie Database - Maqueta de disseny</p>
+    </footer>
+</body>
+</html>
